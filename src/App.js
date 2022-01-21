@@ -9,6 +9,15 @@ function App() {
   const [acumulador, setAcumulador] = useState(0)
   const [operador, setOperador] = useState(false)
 
+  //cria a tela da calculadora
+  const tela = (valor, res) => {
+    return(
+      
+    )
+  }
+
+
+
 
   return (
     <div className="App">
