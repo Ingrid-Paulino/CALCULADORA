@@ -5,6 +5,7 @@ class Button extends Component {
     const { handleClick, value, numValue, name, id } = this.props;
     return(
       <button
+        className='button'
         type="button"
         name={ name }
         id={ id }
